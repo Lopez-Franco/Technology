@@ -1,5 +1,17 @@
 @import url(./animation.css);
 
+#user {
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+    top: 5px;
+    right: 5px;
+}
+
+#user:hover {
+    cursor: pointer;
+}
+
 body {
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(141, 141, 141, 1) 12%, rgba(0, 0, 0, 1) 48%, rgba(55, 55, 63, 1) 100%);
@@ -258,6 +270,15 @@ footer {
 
 
 @media screen and (max-width:767px) {
+    #user {
+        display: none;
+    }
+
+    .sub-menu:hover #user {
+        display: block;
+        left: 5px;
+    }
+
     .formulario {
         width: 90%;
     }

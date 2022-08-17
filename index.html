@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/style.css">
+  <script defer src="./main.js"></script>
 </head>
 
 <body>
@@ -25,266 +26,269 @@
             <a href="#about">About</a><br>
             <a href="#shop">Shop</a><br>
             <a href="#contact">Contact</a>
+            <span>
+              <p id="user" title="Haz clic aquí para identificarte">Bienvenido</p>
+            </span>
           </li>
         </ul>
       </li>
     </ul>
-  </header>
+    <main>
+      <div class="about text-center" id="about">
 
-  <main>
-    <div class="about text-center" id="about">
-
-      <div class="grid-1">
-        <h3>
-          Somos Technology un eCommerce que trae el mundo a tu puerta. Reúne los millones de productos de las tiendas
-          más
-          grandes del mundo.
-          Buscamos destacar por nuestro conocimiento e intentamos establecernos como la opción ideal para sus compras de
-          tecnología.
-        </h3>
-      </div>
-
-      <div class="animation-container grid-2">
-        <div class="lightning-container">
-          <div class="lightning white"></div>
-          <div class="lightning red"></div>
+        <div class="grid-1">
+          <h3>
+            Somos Technology un eCommerce que trae el mundo a tu puerta. Reúne los millones de productos de las tiendas
+            más
+            grandes del mundo.
+            Buscamos destacar por nuestro conocimiento e intentamos establecernos como la opción ideal para sus compras
+            de
+            tecnología.
+          </h3>
         </div>
-        <div class="boom-container">
-          <div class="shape circle big white"></div>
-          <div class="shape circle white"></div>
-          <div class="shape triangle big yellow"></div>
-          <div class="shape disc white"></div>
-          <div class="shape triangle blue"></div>
-        </div>
-        <div class="boom-container second">
-          <div class="shape circle big white"></div>
-          <div class="shape circle white"></div>
-          <div class="shape disc white"></div>
-          <div class="shape triangle blue"></div>
-        </div>
-      </div>
 
-      <div class="grid-3">
-        <h3>
-          Todos nuestros vendedores se encuentran altamente capacitados para asesorarlo y ofrecerle exactamente lo que
-          necesita.
-          Se incluyen todos los costos, no hay sorpresas en el precio y no hay que hacer trámites para recibir.
-          Technology hace todo por vos!
-        </h3>
-      </div>
-    </div>
-    <h2 class="h2-incentivo" id="shop">¡La forma más fácil de comprar productos del mundo a tu puerta!</h2>
-    <div class="search">
-      <input type="text" maxlength="80" placeholder="Buscar..">
-      <img class="svg-search" src="./images/search.svg" alt="">
-    </div>
-    <div class="container-products">
+        <div class="animation-container grid-2">
+          <div class="lightning-container">
+            <div class="lightning white"></div>
+            <div class="lightning red"></div>
+          </div>
+          <div class="boom-container">
+            <div class="shape circle big white"></div>
+            <div class="shape circle white"></div>
+            <div class="shape triangle big yellow"></div>
+            <div class="shape disc white"></div>
+            <div class="shape triangle blue"></div>
+          </div>
+          <div class="boom-container second">
+            <div class="shape circle big white"></div>
+            <div class="shape circle white"></div>
+            <div class="shape disc white"></div>
+            <div class="shape triangle blue"></div>
+          </div>
+        </div>
 
-      <div class="card-item text-center">
-        <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$499990</h2>
-          <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+        <div class="grid-3">
+          <h3>
+            Todos nuestros vendedores se encuentran altamente capacitados para asesorarlo y ofrecerle exactamente lo que
+            necesita.
+            Se incluyen todos los costos, no hay sorpresas en el precio y no hay que hacer trámites para recibir.
+            Technology hace todo por vos!
+          </h3>
         </div>
       </div>
+      <h2 class="h2-incentivo" id="shop">¡La forma más fácil de comprar productos del mundo a tu puerta!</h2>
+      <div class="search">
+        <input type="text" maxlength="80" placeholder="Buscar..">
+        <img class="svg-search" src="./images/search.svg" alt="">
+      </div>
+      <div class="container-products">
 
-      <div class="card-item text-center">
-        <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$119990</h2>
-          <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+        <div class="card-item text-center">
+          <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$499990</h2>
+            <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
         </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$119990</h2>
+            <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$94990</h2>
+            <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$499990</h2>
+            <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$119990</h2>
+            <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$94990</h2>
+            <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$499990</h2>
+            <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$119990</h2>
+            <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$94990</h2>
+            <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$499990</h2>
+            <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$119990</h2>
+            <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$94990</h2>
+            <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$499990</h2>
+            <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$119990</h2>
+            <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$94990</h2>
+            <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$499990</h2>
+            <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$119990</h2>
+            <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card-item text-center">
+          <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
+          <div class="card-body">
+            <hr>
+            <h2 class="card-title">$94990</h2>
+            <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
+            <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
+          </div>
+        </div>
+
       </div>
 
-      <div class="card-item text-center">
-        <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$94990</h2>
-          <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
+      <div class="div-contact" id="contact">
+        <h4 id="h4-contact" class="text-center">Contact</h4>
       </div>
-
-      <div class="card-item text-center">
-        <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$499990</h2>
-          <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
+      <form action="" class="formulario">
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Email">
+        <textarea name="" id="" cols="32" rows="8"></textarea>
+        <a href="#" class="btn btn-secondary btn-lg" id="enviar">Enviar</a>
+      </form>
+    </main>
+    <footer>
+      <div class="icon-whatsapp"><a href="https://api.whatsapp.com/send?phone=5492346684982" target="_blank"><img
+            src="./images/WhatsApp.svg.webp" alt=""></a></div>
+      <div id="business-name-footer"><img src="./images/name-bussines.svg" alt=""></div>
+      <div class="redes">
+        <img src="./images/redes/facebook.png" alt="">
+        <img src="./images/redes/gorjeo.png" alt="">
+        <img src="./images/redes/instagram.png" alt="">
+        <img src="./images/redes/linkedin.png" alt="">
+        <img src="./images/redes/youtube.png" alt="">
       </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$119990</h2>
-          <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$94990</h2>
-          <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$499990</h2>
-          <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$119990</h2>
-          <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$94990</h2>
-          <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$499990</h2>
-          <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$119990</h2>
-          <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$94990</h2>
-          <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$499990</h2>
-          <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$119990</h2>
-          <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$94990</h2>
-          <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/latptop.jpg" class="card-img" alt="Laptop XPG">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$499990</h2>
-          <p class="card-text">NOTEBOOK ADATA XPG XENIA XE I7 11800H 1TB NVME 32GB RTX 3070 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop2.jpg" class="card-img" alt="Laptop ASUS">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$119990</h2>
-          <p class="card-text">NOTEBOOK ASUS X515EA-EJ711 I3 1115G4 8GB SSD 256GB 15.6"</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-      <div class="card-item text-center">
-        <img src="./images/laptop3.jpg" class="card-img" alt="Laptop LENOVO">
-        <div class="card-body">
-          <hr>
-          <h2 class="card-title">$94990</h2>
-          <p class="card-text">NOTEBOOK LENOVO V15 PENTIUM N5030 4GB 1TB 15.6</p>
-          <a href="#" class="btn btn-secondary btn-lg">Comprar</a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="div-contact" id="contact">
-      <h4 id="h4-contact" class="text-center">Contact</h4>
-    </div>
-    <form action="" class="formulario">
-      <input type="text" placeholder="Nombre">
-      <input type="email" placeholder="Email">
-      <textarea name="" id="" cols="32" rows="8"></textarea>
-      <a href="#" class="btn btn-secondary btn-lg" id="enviar">Enviar</a>
-    </form>
-  </main>
-  <footer>
-    <div class="icon-whatsapp"><a href="https://api.whatsapp.com/send?phone=5492346684982" target="_blank"><img src="./images/WhatsApp.svg.webp" alt=""></a></div>
-    <div id="business-name-footer"><img src="./images/name-bussines.svg" alt=""></div>
-    <div class="redes">
-      <img src="./images/redes/facebook.png" alt="">
-      <img src="./images/redes/gorjeo.png" alt="">
-      <img src="./images/redes/instagram.png" alt="">
-      <img src="./images/redes/linkedin.png" alt="">
-      <img src="./images/redes/youtube.png" alt="">
-    </div>
-    <p class="text-center">© 2022 Franco López - Todos los Derechos reservados. | La información publicada en
-      Technology.com está sujeta a cambios sin previo aviso.</p>
-  </footer>
+      <p class="text-center">© 2022 Franco López - Todos los Derechos reservados. | La información publicada en
+        Technology.com está sujeta a cambios sin previo aviso.</p>
+    </footer>
 
 </body>
 
